@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\pirat\\Documents\\Labyrinth\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pirat\\Documents\\Labyrinth\\scenes\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scenes\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15926A48-0AA6-42ED-90E4-4E50009B022A}|Labyrinth.csproj|c:\\users\\pirat\\documents\\labyrinth\\scenes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15926A48-0AA6-42ED-90E4-4E50009B022A}|Labyrinth.csproj|solutionrelative:scenes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pirat\\Documents\\Labyrinth\\scenes\\Camera3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scenes\\Camera3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +26,24 @@
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\pirat\\Documents\\Labyrinth\\scenes\\Player.cs",
               "RelativeDocumentMoniker": "scenes\\Player.cs",
-              "ToolTip": "C:\\Users\\pirat\\Documents\\Labyrinth\\scenes\\Player.cs",
-              "RelativeToolTip": "scenes\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\pirat\\Documents\\Labyrinth\\scenes\\Player.cs*",
+              "RelativeToolTip": "scenes\\Player.cs*",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDUAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-11T15:03:31.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Camera3d.cs",
+              "DocumentMoniker": "C:\\Users\\pirat\\Documents\\Labyrinth\\scenes\\Camera3d.cs",
+              "RelativeDocumentMoniker": "scenes\\Camera3d.cs",
+              "ToolTip": "C:\\Users\\pirat\\Documents\\Labyrinth\\scenes\\Camera3d.cs",
+              "RelativeToolTip": "scenes\\Camera3d.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T12:54:36.123Z",
               "EditorCaption": ""
             }
           ]

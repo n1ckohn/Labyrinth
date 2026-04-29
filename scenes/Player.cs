@@ -2,6 +2,7 @@ using Godot;
 
 public partial class Player : CharacterBody3D
 {
+    public Vector2 mouse = new Vector2(0, 0);
     // How fast the player moves in meters per second.
     [Export]
     public int Speed { get; set; } = 14;
@@ -48,9 +49,23 @@ public partial class Player : CharacterBody3D
         {
             _targetVelocity.Y -= FallAcceleration * (float)delta;
         }
-
+        
         // Moving the character
-        Velocity = _targetVelocity;
+        Velocity = _targetVelocity.Rotated(Vector3.ModelTop, 45f / 180f * Mathf.Pi  /*Vector3.Up.Y - Vector3.ModelTop.Y*/);
         MoveAndSlide();
     }
+    public override void _Input(InputEvent inputEvent)
+    {
+        if (inputEvent is InputEventMouseMotion mouseMotion)
+        {       
+            // Get the relative movement of the mouse
+            mouse = mouseMotion.Relative;
+            // Print the mouse movement to the console
+            GD.Print("Mouse moved: ", mouse);
+            mouse.Normalized();
+            //hoch runter
+            RotateObjectLocal(new Vector3(0, -1, 0), mouse.X * 0.01f);
+        }
+    }
+    
 }

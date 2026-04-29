@@ -1,6 +1,7 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1773236946
+::res://::1777467019
 icon.svg::CompressedTexture2D::8024791106278191654::1772791818::1773236947::1::::<><><>0<>0<>a15e8afd47207f12016981c1657d4673<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+Main.tscn::PackedScene::8319898074868512545::1776261985::0::1::::<><><>0<>0<><>::uid://iarcvvj3da6v::::res://scenes/player.tscn
 README.md::TextFile::-1::1772791818::0::1::::<><><>0<>0<><>::
 ::res://addons/::1772791818
 ::res://addons/godot-git-plugin/::1772791818
@@ -8,4 +9,8 @@ git_plugin.gdextension::GDExtension::2418024312420105131::1772791818::0::1::::<>
 THIRDPARTY.md::TextFile::-1::1772791818::0::1::::<><><>0<>0<><>::
 ::res://addons/godot-git-plugin/linux/::1772791818
 ::res://addons/godot-git-plugin/macos/::1772791818
-::res://addons/godot-git-plugin/windows/::1773236930
+::res://addons/godot-git-plugin/windows/::1777467000
+::res://scenes/::1776867428
+Main.tscn::PackedScene::5668291468741510273::1773237037::0::1::::<><><>0<>0<><>::
+Player.cs::CSharpScript::8541684870290505641::1776867428::0::1::::<>CharacterBody3D<><>0<>0<><>::
+player.tscn::PackedScene::562547645446799723::1776867339::0::1::::<><><>0<>0<><>::uid://dtxwki7ht8ufx::::res://scenes/Player.cs
